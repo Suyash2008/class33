@@ -11,7 +11,7 @@ var gamestates = "onsling";
 var score = 0;
 var birdsCount = 5;
 var birds = []
-
+var bg = loadImage("sprites/bg.png");
 
 function preload(){
   ChangeBackground();
