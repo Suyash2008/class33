@@ -14,7 +14,7 @@ var birds = []
 
 
 function preload(){
-  bg = loadImage("sprites/bg.png");
+  ChangeBackground();
 }
 
 function setup(){
