@@ -14,7 +14,7 @@ var birds = []
 
 
 function preload(){
-  ChangeBackground();
+  bg = loadImage("sprites/bg.png");
 }
 
 function setup(){
@@ -49,7 +49,6 @@ function setup(){
   
 }
 function draw(){
-  
   background(bg);
   Engine.update(engine);
   textSize(30);
