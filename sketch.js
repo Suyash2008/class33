@@ -49,7 +49,8 @@ function setup(){
   
 }
 function draw(){
-  background(bg);
+  if(backgroundImg)
+  background(backgroundImg);
   Engine.update(engine);
   textSize(30);
   fill("black");
