@@ -50,7 +50,7 @@ function setup(){
 }
 function draw(){
   
-  background(backgroundImg);
+  background(bg);
   Engine.update(engine);
   textSize(30);
   fill("black");
