@@ -55,8 +55,8 @@ function draw(){
   fill("black");
   stroke("blue");
   text("score "+score,600,100)
-  //text("chances "+birdsCount,600,300)
-  //text("target "+"100",600,200);
+  text("chances "+birdsCount,600,300)
+  text("target "+"100",600,200);
   
   console.log(birdsCount)
   if(score === 100){
